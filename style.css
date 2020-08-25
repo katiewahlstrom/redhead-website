@@ -16,14 +16,13 @@ a {
 
 /* HEADER */
 header {
-  height: 150px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-#logo {
-  width: 50%;
-  margin: 1px;
-  display: block;
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -20px;
 }
 
 ul {
@@ -39,24 +38,26 @@ li {
 header li:first-child {
   border-right: 1px solid #373535;
 }
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
 
 .left {
-  width: 320px;
-  float: left;
+  /* float: left; */
 }
 .left ul {
   padding-left: 30px;
-  padding-top: 90px;
+  padding-top: 0px;
 }
 .right {
-  width: 320px;
-  float: right;
+  /* float: right; */
 }
 
 .right ul {
-  float: right;
+  /* float: right; */
   padding-right: 30px;
-  padding-top: 90px;
+  padding-top: 0px;
 }
 
 #logo p {
